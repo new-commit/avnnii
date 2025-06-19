@@ -1,0 +1,9 @@
+@import "tailwindcss";
+ 
+/* path of the package relative to the CSS file */
+@plugin "@tailwindcss/typography";
+
+::selection{
+  background-color: #51be7220;
+  color: #51be72;
+}
